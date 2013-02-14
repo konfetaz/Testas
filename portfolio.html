@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gfolio Template &middot; Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="js/fancybox/jquery.fancybox.css" rel="stylesheet">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+            <link href="css/ie.css" rel="stylesheet">
+        <![endif]-->
+
+        <!-- Fav and touch icons -->
+        <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700,700italic' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+
+
+        <!-- NAVBAR
+        ================================================== -->
+        <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
+        <div id="cnt" class="contact-form" style="height:0;">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <h2>Contact Form</h2>
+                        <form action="" method="post">
+                            <div class="control-group">
+                                <label class="control-label" for="name">Your name:</label>
+                                <div class="controls">
+                                    <input type="text" class="input-xlarge" value="" name="name" id="name" size="18" tabindex="1">
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="email">Email:</label>
+                                <div class="controls">
+                                    <input type="text" class="input-xlarge" value="" name="email" id="email" size="25" tabindex="2">
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="message">Your message:</label>
+                                <div class="controls">
+                                    <textarea rows="7" name="body" id="message" class="input-xlarge" tabindex="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input id="cnt-btn" class="btn btn-inverse" type="submit" value="Send message" tabindex="3">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="span3">
+                        <h2>Contact info</h2>
+                        <p><i class="ico-map-marker"></i>&nbsp; 30 South Park Avenue</p>
+                        <p><i class="ico-map-marker"></i>&nbsp; San Francisco, CA 94108, USA</p>	
+                        <p><i class="ico-phone-sign"></i>&nbsp; Phone: (123) 456-7890</p>
+                        <p><i class="ico-print"></i>&nbsp; Fax: +08 (123) 456-7890</p>
+                        <p><i class="ico-envelope"></i>&nbsp; Email: contact@companyname.com</p>
+                        <p><i class="ico-globe"></i>&nbsp; Web: companyname.com</p>
+                    </div>
+                    <div class="span5">
+                        <h2>Find us on the map</h2>
+                        <!-- starts: Google Maps -->
+                        <div id="googlemaps" class="google-maps"></div>
+                        <!-- end: Google Maps -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topline"></div>
+        <header>
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a href="#" class="contact-btn pull-right">contacts &nbsp;&nbsp;<i class="ico-caret-down"></i></a>
+                        <a class="brand" href="#" title="Gfolio"><img src="img/logo.png" alt="gfolio" /></a>
+                        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <ul class="nav nav-collapse">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#test.html" data-type="ajax">Ajax</a></li>
+                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="dashedline"></div>
+                    </div><!-- /.navbar-inner -->
+                </div><!-- /.navbar -->
+            </div>
+        </header>
+        <div class="container" id="content">
+            <div id="sub" style="position:relative;width:100%;">
+
+            </div>
+            <!-- Page header -->
+            <div class="page-header">
+                <div class="container">
+                    <h1 class="pull-left">Portfolio</h1>
+                    <ul class="nav nav-pills pull-right" id="filters">
+                        <li class="active"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".logo">Logos</a></li>
+                        <li><a href="#" data-filter=".design">Design</a></li>
+                        <li><a href="#" data-filter=".video">Video</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Page header end -->
+
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+
+            <div class="container">
+                <div class="thumbnails row">
+                    <div data-type="ajax" data-href="pic1.html" class="thumbnail design span4 anim-1">
+                        <a href="images/pic1.jpg" class="fancybox" title="Thumbnail label">
+                            <img alt="" src="images/pic1.jpg">
+                        </a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div data-type="ajax" data-href="pic2.html" class="thumbnail design span4 anim-1">
+                        <a href="images/pic2.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic2.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div data-type="ajax" data-href="pic3.html" class="thumbnail video span4 anim-1">
+                        <a href="images/pic3.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic3.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail logo span4 anim-1">
+                        <a href="images/pic4.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic4.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail span4 video anim-1">
+                        <a href="images/pic5.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic5.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail span4 design anim-1">
+                        <a href="images/pic6.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic6.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail span4 design anim-1">
+                        <a href="images/pic7.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic7.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail span4 design anim-1">
+                        <a href="images/pic8.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic8.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="thumbnail span4 design anim-1">
+                        <a href="images/pic9.jpg" class="fancybox" title="Thumbnail label"><img alt="" src="images/pic9.jpg"></a>
+                        <div class="caption">
+                            <h5>Thumbnail label</h5>
+                            <a class="btn-more" href="javascript:;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination pagination-right">
+                    <ul>
+                        <li><a href="#">«</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                </div>
+                <div class="dashedline"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="page-header">
+                <h1>Clients</h1>
+            </div>
+            <img src="img/client-logos.png" />
+        </div>
+        <!-- Full-width End -->
+        <footer>
+            <div class="container">
+                <div class="dashedline"></div>
+            </div>
+            <div class="container">
+                <p class="pull-right"><a href="javascript:;" title="Back to top" class="footer-to-top"><i class="ico-chevron-up ico-large"></i></a></p>
+                <p>&copy; 2012 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+        </footer>
+
+        <!-- javascript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/jquery.scrollto.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="js/jquery.gmap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Initialize isotope
+                var $container = $('.thumbnails');
+                $container.imagesLoaded(function() {
+                    $container.isotope({
+                        itemSelector: '.thumbnail',
+                        transformsEnabled: true
+                    });
+                    $('.thumbnail', $container).addClass('photo-shadow');
+                });
+                // Filter items when filter link is clicked
+                $('#filters a').click(function() {
+                    var selector = $(this).attr('data-filter');
+                    $('#filters li').removeClass('active');
+                    $(this).parent().addClass('active');
+                    $container.isotope({filter: selector});
+                    return false;
+                });
+                //End isotope
+
+                // Fancybox initialization
+                $(".fancybox").fancybox({});
+                // Fancybox end
+
+                // Ajax page loading function
+                $('[data-type="ajax"]').click(function(e) {
+                    showLoader();
+                    var ajaxURL = $(this).data('href');
+                    $.get(ajaxURL, '', function(d) {
+                        var oldSub = $('.sub-content');
+                        toggleSubContent(oldSub, d);
+                    }, "html");
+                });
+                // Ajax page load end
+
+                // Google maps initialization for contact form
+                $('#googlemaps').gMap({
+                    controls: {
+                        panControl: false,
+                        zoomControl: false,
+                        mapTypeControl: false,
+                        scaleControl: false,
+                        streetViewControl: false,
+                        overviewMapControl: false
+                    },
+                    maptype: 'ROADMAP',
+                    scrollwheel: false,
+                    zoom: 13,
+                    markers: [{
+                            address: 'San Francisco, United States', // Your Adress Here
+                            html: '',
+                            popup: false,
+                        }],
+                });
+                //End google maps
+
+                //Thumbnail effects js
+
+                $('.thumbnail').hover(
+                        function() {
+                            $('img', this).stop(true, true).animate({scale: 1.5}, 400);
+                            $('.caption', this).stop(true, true).animate({opacity: 1}, 400);
+                            $('.caption > h5', this).stop(true, true).animate({marginTop: "20px", opacity: 1}, 200, 'linear');
+                            var imgH = $(this).height();
+                            var titleH = $('.caption h5', this).height() + 20;
+                            var btnH = $('.caption > a.btn-more', this).height();
+                            var posB = ((imgH - titleH) / 2) - (btnH / 2);
+                            $('.caption > a.btn-more', this).stop(true, true).animate({bottom: posB, opacity: 1}, 200, 'linear');
+                        },
+                        function() {
+                            var btnH = $('.caption > a.btn-more', this).height();
+                            $('img', this).animate({scale: 1}, 400);
+                            $('.caption', this).animate({opacity: 0}, 400);
+                            $('.caption h5', this).animate({marginTop: "-100px", opacity: 0}, 400, 'linear');
+                            $('.caption > a.btn-more', this).animate({bottom: "-"+btnH+"px", opacity: 0}, 400, 'linear');
+                        }
+                );
+                
+
+            });
+        </script>
+        <div class="loading-overlay" style="display:none;"><div class="ico"></div></div>
+    </body>
+</html>
